@@ -119,7 +119,7 @@ nastavíme `/etc/proxychains4.conf`
 socks5  127.0.0.1 1080
 ```
 
-Pro spouštění vlastního kódu prostřednictvím použijeme [jdwp-shellifier](https://github.com/hugsy/jdwp-shellifier).
+Pro spouštění vlastního kódu použijeme [jdwp-shellifier](https://github.com/hugsy/jdwp-shellifier).
 
 Na PC jgames není nainstalovaný `nc`, tak si ho tam stáhneme z vlastního pc. Jako breakpoint trigger se použije `java.lang.String.indexOf`.
 

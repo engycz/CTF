@@ -20,7 +20,7 @@ May the Packet be with you!
 
 ## Řešení
 
-Cílem úlohy je najít takovou cestu, při které bude součet vzdáleností 163 912m a zároveň se každým uzlem projede maximálně jednou. Ve staženém archivu je soubor `Area_52.png` s obrázkem spojů mezi uzly včetně vzdáleností a tak0 soubor `Area_52.dot` s textovým popisem grafu.
+Cílem úlohy je najít takovou cestu, při které bude součet vzdáleností 163 912m a zároveň se každým uzlem projede maximálně jednou. Ve staženém archivu je soubor `Area_52.png` s obrázkem spojů mezi uzly včetně vzdáleností a také soubor `Area_52.dot` s textovým popisem grafu.
 
 PS: Obrázek je z textové předlohy generován pomocí GraphViz.
 

@@ -386,7 +386,7 @@ PychfePyOqD9kbLR2tyh5jTLminOV5+sLsbCrwHaNmLNY0rIzQxxzZcCAwEAAQ==
 
 Jejich obsah vyplníme na stránce <https://jwt.io/> k dříve načtenému tokenu. Kontrola integrity je nyní v pořádku `Signature Verified`, takže klíče jsou správně. Do dat tokenu doplníme `"flag-read": true` a vygenerovaný token zkopírujeme do doplňku ve Firefoxu.
 
-Po zavolání funkce `/api/v1/admin/getFlag` - `The Flag` ale vrací chybu je už vrácen hledaný FLAG.
+Po zavolání funkce `/api/v1/admin/getFlag` - `The Flag` je už vrácen hledaný FLAG.
 
 [source.zip](source.zip) obsahuje zdrojový kód aplikace (funguje s `fastapi<=0.88.0`, spuštění pomocí `uvicorn`).
 

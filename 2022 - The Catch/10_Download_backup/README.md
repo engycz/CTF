@@ -18,7 +18,7 @@ May the Packet be with you!
 
 ## Řešení
 
-Součástí ZIP archivu další RAR archiv a soubor s heslem `password`. Archiv rozbalíme pomocí `7z x download_backup.rar`. Ve výstupním adresáři jsou sobory
+Součástí ZIP archivu je další RAR archiv a soubor s heslem `password`. Archiv rozbalíme pomocí `7z x download_backup.rar`. Ve výstupním adresáři jsou sobory
 
 ```text
  14839798 Aug  8 07:45 1098612x18781390.pdf

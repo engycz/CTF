@@ -1,4 +1,4 @@
-# Bitcoin wallet (1)
+# Unknown package (1)
 
 ## Zadání
 

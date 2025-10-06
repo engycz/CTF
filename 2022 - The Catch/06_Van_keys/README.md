@@ -20,7 +20,7 @@ May the Packet be with you!
 
 Archiv obsahuje soubor `van_keys_enc.aes` se zakódovaným flagem a neúplný Python program `code.py` s chybami pro jeho dekódování. V programu chybí importy a místy dvojtečky a dále tabulátor místo mezer. Po opravě chyb a spuštění nahlásí program chybějící soubor `pi_dec_1m.txt`. Google pomůže - jedná se o soubor s číslem pi na 1 000 000 míst, který se dá stáhnout např. z <http://pi2e.ch/blog/wp-content/uploads/2017/03/pi_dec_1m.txt>.
 
-Do programu je ještě potřeba doplnit dekódování souboru `van_keys_enc.aes`:
+Do programu je ještě potřeba doplnit načtení souboru `van_keys_enc.aes`:
 
 ```python
 with open('van_keys_enc.aes', 'rb') as f:
