@@ -15,3 +15,8 @@ defaults:
     values:
       site_title: "The Catch 2024"
       site_url: "/The_Catch_2024"
+  - scope:
+      path: "The_Catch_2025"
+    values:
+      site_title: "The Catch 2025"
+      site_url: "/The_Catch_2025"
