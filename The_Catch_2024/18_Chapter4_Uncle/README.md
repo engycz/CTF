@@ -99,6 +99,7 @@ Hlavní webová stránka funguje takto:
 
 Zajímavým místem je šablona `sam-operator\web\samweb\templates\status.html`
 
+{% raw %}
 ```html
 ...
 {% if project_secret and ("debug" in project_secret["data"]) %}
@@ -109,6 +110,7 @@ Zajímavým místem je šablona `sam-operator\web\samweb\templates\status.html`
 {% endif %}
 ...
 ```
+{% endraw %}
 
 která pokud je v Secret obsažena položka `debug`, zobrazí obsah `session` a `config`, ve které je ukrytý FLAG.
 

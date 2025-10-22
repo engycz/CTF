@@ -1,0 +1,17 @@
+google_analytics: G-QRCMN7S648
+defaults:
+  - scope:
+      path: "The_Catch_2022"
+    values:
+      site_title: "The Catch 2022"
+      site_url: "/The_Catch_2022"
+  - scope:
+      path: "The_Catch_2023"
+    values:
+      site_title: "The Catch 2023"
+      site_url: "/The_Catch_2023"
+  - scope:
+      path: "The_Catch_2024"
+    values:
+      site_title: "The Catch 2024"
+      site_url: "/The_Catch_2024"
