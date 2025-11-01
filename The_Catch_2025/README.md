@@ -33,25 +33,25 @@ Hodnota v závorce za názvem úlohy udává počet bodů za její vyřešení. 
 
 Scoreboard Top 20
 
-| Place | User                 | Score |
-|-------|----------------------|-------|
-|1      |EngyCZ                | 58    |
-|2      |ondrca                | 58    |
-|3      |SIGKITTEN             | 58    |
-|4      |fearless              | 58    |
-|5      |Jelen a šnek          | 58    |
-|6      |lukash                | 58    |
-|7      |spm                   | 58    |
-|8      |Gideon                | 58    |
-|9      |tomjab                | 58    |
-|10     |Longmatys             | 58    |
-|11     |CP4                   | 58    |
-|12     |kaktus_kaktus         | 58    |
-|13     |Yaneek                | 58    |
-|14     |jantosko              | 58    |
-|15     |makhno                | 58    |
-|16     |boulabytes            | 58    |
-|17     |[CTU FIT] TheLastOfUs | 58    |
-|18     |zombie                | 58    |
-|19     |JStepanek             | 58    |
-|20     |vcpo                  | 55    |
+| Place | User                  | Score |
+|-------|-----------------------|-------|
+| 1     | **EngyCZ**            | 58    |
+| 2     | ondrca                | 58    |
+| 3     | SIGKITTEN             | 58    |
+| 4     | fearless              | 58    |
+| 5     | Jelen a šnek          | 58    |
+| 6     | lukash                | 58    |
+| 7     | spm                   | 58    |
+| 8     | Gideon                | 58    |
+| 9     | tomjab                | 58    |
+| 10    | Longmatys             | 58    |
+| 11    | CP4                   | 58    |
+| 12    | kaktus_kaktus         | 58    |
+| 13    | Yaneek                | 58    |
+| 14    | jantosko              | 58    |
+| 15    | makhno                | 58    |
+| 16    | boulabytes            | 58    |
+| 17    | [CTU FIT] TheLastOfUs | 58    |
+| 18    | zombie                | 58    |
+| 19    | JStepanek             | 58    |
+| 20    | vcpo                  | 55    |

@@ -28,3 +28,26 @@ Cílem je v každé úloze získat tzv. _flag_, který je ve formátu `FLAG{xxxx
    1. [Orderly IS](18_Orderly_IS) (5)
 
 Hodnota v závorce za názvem úlohy udává počet bodů za její vyřešení. Uvedená řešení jsou postupy, kterými jsem se dobral k získání flagu, ale nemusí se jednat o nejefektivnější nebo zamýšlený postup.
+
+| Place | User         | Score |
+|-------|--------------|-------|
+| 1     | MichalS      | 48    |
+| 2     | Jelen a šnek | 48    |
+| 3     | suflikanti   | 48    |
+| 4     | tuna         | 48    |
+| 5     | **EngyCZ**   | 48    |
+| 6     | space_cowboy | 48    |
+| 7     | aenniw       | 48    |
+| 8     | fearless     | 48    |
+| 9     | filiq        | 48    |
+| 10    | ondrca       | 48    |
+| 11    | ov49babi4ka  | 48    |
+| 12    | snowhat      | 48    |
+| 13    | Speedy11CZ   | 48    |
+| 14    | stan         | 48    |
+| 15    | vince.woops  | 48    |
+| 16    | off by one   | 48    |
+| 17    | tomjab       | 48    |
+| 18    | Longmatys    | 48    |
+| 19    | boulabytes   | 48    |
+| 20    | phoenix1204  | 48    |
