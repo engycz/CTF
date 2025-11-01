@@ -29,17 +29,27 @@ Cílem je v každé úloze získat tzv. _flag_, který je ve formátu `FLAG{xxxx
 
 Hodnota v závorce za názvem úlohy udává počet bodů za její vyřešení. Uvedená řešení jsou postupy, kterými jsem se dobral k získání FLAGu, ale nemusí se jednat o nejefektivnější nebo zamýšlený postup.
 
-Scoreboard Top 10
+Scoreboard Top 20
 
-| Place | User         | Score |
-|-------|--------------|-------|
-|1      |vcpo          | 51    |
-|2      |klarz         | 51    |
-|3      |EngyCZ        | 51    |
-|4      |Jelen a šnek  | 51    |
-|5      |Šuflikanti    | 51    |
-|6      |vincent.woops | 51    |
-|7      |fearless      | 51    |
-|8      |havry         | 51    |
-|9      |dnakov        | 51    |
-|10     |❄            | 51    |
+| Place | User          | Score |
+|-------|---------------|-------|
+| 1     | vcpo          | 51    |
+| 2     | klarz         | 51    |
+| 3     | **EngyCZ**    | 51    |
+| 4     | Jelen a šnek  | 51    |
+| 5     | Šuflikanti    | 51    |
+| 6     | vincent.woops | 51    |
+| 7     | fearless      | 51    |
+| 8     | havry         | 51    |
+| 9     | dnakov        | 51    |
+| 10    | ❄            | 51    |
+| 11    | spm           | 51    |
+| 12    | BiT           | 51    |
+| 13    | ov49babi4ka   | 51    |
+| 14    | charlie       | 51    |
+| 15    | chris         | 51    |
+| 16    | stan          | 51    |
+| 17    | vrtačka       | 51    |
+| 18    | Yaneek        | 51    |
+| 19    | Longmatys     | 51    |
+| 20    | tomjab        | 51    |

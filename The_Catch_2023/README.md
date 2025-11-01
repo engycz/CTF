@@ -29,3 +29,28 @@ Cílem je v každé úloze získat tzv. _flag_, který je ve formátu `FLAG{xxxx
    1. [Arkanoid](18_Arkanoid/README.md) (5)
 
 Hodnota v závorce za názvem úlohy udává počet bodů za její vyřešení. Uvedená řešení jsou postupy, kterými jsem se dobral k získání flagu, ale nemusí se jednat o nejefektivnější nebo zamýšlený postup.
+
+Scoreboard Top 20
+
+| Place | User                 | Score |
+|-------|----------------------|-------|
+| 1     | klarz                | 50    |
+| 2     | vcpo                 | 50    |
+| 3     | Jelen a šnek         | 50    |
+| 4     | aenniw               | 50    |
+| 5     | space_cowboy         | 50    |
+| 6     | biohacker            | 50    |
+| 7     | **EngyCZ**           | 50    |
+| 8     | suflikanti           | 50    |
+| 9     | tuna                 | 50    |
+| 10    | fearless             | 50    |
+| 11    | patrikz              | 50    |
+| 12    | charlie              | 50    |
+| 13    | ov49babi4ka          | 50    |
+| 14    | stanislavb           | 50    |
+| 15    | ondrca               | 50    |
+| 16    | snowhat              | 50    |
+| 17    | filiq                | 50    |
+| 18    | Longmatys            | 50    |
+| 19    | tomjab               | 50    |
+| 20    | Speedy11CZ           | 50    |
