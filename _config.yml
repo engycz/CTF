@@ -1,4 +1,5 @@
 google_analytics: G-QRCMN7S648
+lang: cs-CZ
 defaults:
   - scope:
       path: "The_Catch_2022"
@@ -20,3 +21,8 @@ defaults:
     values:
       site_title: "The Catch 2025"
       site_url: "/The_Catch_2025"
+  - scope:
+      path: "The_Catch_2026"
+    values:
+      site_title: "The Catch 2026"
+      site_url: "/The_Catch_2026"

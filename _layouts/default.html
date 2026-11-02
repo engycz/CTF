@@ -1,28 +1,91 @@
+{% assign is_home = false %}
+{% if page.url == "/" %}
+  {% assign is_home = true %}
+{% endif %}
+{% assign edition_title = page.site_title %}
+{% assign edition_path = page.site_url %}
+{% assign page_section = page.url | remove_first: "/" | split: "/" | first %}
+{% assign section_prefix = page_section | slice: 0, 10 %}
+{% if section_prefix == "The_Catch_" %}
+  {% assign default_edition_title = page_section | replace: "_", " " %}
+  {% assign default_edition_path = page_section | prepend: "/" %}
+  {% assign edition_title = edition_title | default: default_edition_title %}
+  {% assign edition_path = edition_path | default: default_edition_path %}
+{% endif %}
+{% assign is_edition = false %}
+{% if edition_path %}
+  {% assign edition_url = edition_path | append: "/" %}
+  {% if page.url == edition_url %}
+    {% assign is_edition = true %}
+  {% endif %}
+{% endif %}
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'cs-CZ' }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#08110f">
 
 {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/ctf.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      {% if page.site_title and page.site_url %}
-      <h1><a href="{{ page.site_url | relative_url}}">{{ page.site_title }}</a></h1>
-      {% endif %}
+  <body id="top" class="{% if is_home %}is-home{% elsif is_edition %}is-edition{% else %}is-writeup{% endif %}">
+    <a class="skip-link" href="#main-content">Přeskočit na obsah</a>
 
-      {{ content }}
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="EngyCZ CTF - úvodní stránka">
+          <span class="brand-mark" aria-hidden="true">&gt;_</span>
+          <span class="brand-name">ENGYCZ <span class="brand-separator">/</span> CTF<span class="brand-subtitle">WRITEUP ARCHIVE</span></span>
+        </a>
 
-      {% if site.github.private != true and site.github.license %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. {% github_edit_link "Improve this page" %}.
+        <div class="header-status"><span aria-hidden="true"></span> CAPTURE THE FLAG</div>
       </div>
-      {% endif %}
-    </div>
+    </header>
+
+    <main id="main-content" class="site-main" tabindex="-1">
+      {% unless is_home %}
+      <nav class="breadcrumbs" aria-label="Drobečková navigace">
+        <a href="{{ '/' | relative_url }}">~/ctf</a>
+        {% if edition_title and edition_path %}
+        <span aria-hidden="true">/</span>
+        <a href="{{ edition_path | relative_url }}"{% if is_edition %} aria-current="page"{% endif %}>{{ edition_title }}</a>
+        {% endif %}
+      </nav>
+
+      <div class="document-frame">
+        <div class="document-bar" aria-hidden="true">
+          <span><span class="document-icon">&lt;/&gt;</span> README.md</span>
+        </div>
+      {% endunless %}
+
+        <article class="markdown-body {% if is_home %}home-content{% else %}document-content{% endif %}">
+          {% if is_home %}
+          <p class="home-kicker"><span aria-hidden="true">//</span> PERSONAL CTF ARCHIVE</p>
+          {% endif %}
+
+          {{ content }}
+        </article>
+
+      {% unless is_home %}
+      </div>
+      {% endunless %}
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <p><span class="footer-mark" aria-hidden="true">&gt;_</span> ENGYCZ <span class="footer-separator">/</span> CTF WRITEUPS</p>
+        {% if site.github.private != true and site.github.license %}
+        <p>{% github_edit_link "Upravit tuto stránku" %}</p>
+        {% endif %}
+        <a class="back-to-top" href="#top">Nahoru <span aria-hidden="true">&#8593;</span></a>
+      </div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>
